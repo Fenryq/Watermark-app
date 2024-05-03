@@ -1,7 +1,7 @@
 Watermark app - this is a project that allows adding a watermark to .jpg, .png files. It was created in Python, mainly using the Tkinter library, as well as Pillow.
 
 The project can handle multiple files at once, adding a watermark to them, which can have 3 sizes: 50x50, 100x100, 150x150.
-
+The program converts all .png files (both the watermark and the images to which the watermark will be applied) to .jpg files.
 The program allows choosing the placement of the watermark, for each image it can be: top right corner, top left corner, center, bottom right corner, bottom left corner.
 
 The final file is saved in the result folder. The client also has access to the watermark in the "changed format", it is located in the watermark folder.
